@@ -1,0 +1,22 @@
+# Created for wslx 0.1.1 submission.
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Shanewas.wslx
+PackageVersion: 0.1.1
+Platform:
+  - Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: wslx.exe
+    PortableCommandAlias: wslx
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/shanewas/wslx/releases/download/v0.1.1/wslx_0.1.1_windows_amd64.zip
+    InstallerSha256: C123F27B8C359C778444B1C3FC1968FF9A4F27DF75895B8C63FBF6E23E33DF3F
+  - Architecture: arm64
+    InstallerUrl: https://github.com/shanewas/wslx/releases/download/v0.1.1/wslx_0.1.1_windows_arm64.zip
+    InstallerSha256: 44151290D6E2D0E36BE87F8C8134F267214EFE22749F256DE2742C5961A5A8B
+ManifestType: installer
+ManifestVersion: 1.12.0
