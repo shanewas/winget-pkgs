@@ -17,6 +17,6 @@ Installers:
     InstallerSha256: C123F27B8C359C778444B1C3FC1968FF9A4F27DF75895B8C63FBF6E23E33DF3F
   - Architecture: arm64
     InstallerUrl: https://github.com/shanewas/wslx/releases/download/v0.1.1/wslx_0.1.1_windows_arm64.zip
-    InstallerSha256: 44151290D6E2D0E36BE87F8C8134F267214EFE22749F256DE2742C5961A5A8B
+    InstallerSha256: 44151290D6E2D0E36BE87F8C8134F267214EFE22749F256DE2742C5961A5A8B7
 ManifestType: installer
 ManifestVersion: 1.12.0
